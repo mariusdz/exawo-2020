@@ -62,6 +62,8 @@ h5 {
     background-color:#616161;
     padding:40px;
     color: #fff;
+    opacity: 60%;
+    text-align: center;
 }
 /* ------------------------------------------------------------------------------
 	Global Styles
@@ -392,7 +394,7 @@ padding-bottom: 30px;
 
 
 /* ------------------------------------------------------------------------------
-	 Serives
+	 Services
 -------------------------------------------------------------------------------*/
 .service-section {
 	padding-top: 100px;
@@ -801,7 +803,7 @@ ul.list-default li {
 	font-size: 11px;
 	margin: 0 2px;
 }
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 3060px) {
     #header .logo a {
     padding-top: 29%;
     display: inherit;
