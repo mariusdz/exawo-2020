@@ -53,5 +53,28 @@ $(document).ready(function() {
 		$('.nav-toggle').toggleClass('close-nav');
 		nav.toggleClass('open');
 	});
+
+	//Program hover and click
+
+	$(".services-content").hover(function(){
+	    $(this).css("background-color", "#8bc34a");
+		  }, function(){
+		  $(this).css("background-color", "white");
+		});
+		$("#workntrain.services-content").on('click', function(){
+			window.location = "workntrain.html";    
+	   });
+	   $("#fightfit.services-content").on('click', function(){
+		window.location = "fightfit.html";    
+    });
+       $("#exisizeonline.services-content").on('click', function(){
+	    window.location = "exisizeonline.html";    
+	});
+	
+	//POP-UP
+
+
+		
+	   
 	
 });

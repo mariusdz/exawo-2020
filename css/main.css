@@ -6,33 +6,40 @@
 
 @import url(http://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700); 
 p {
-	font-size: 13px;
+	font-size: 20px;
 	line-height: 22.4px;
 	color: #6c7279;
 }
+
 h1 {
-	font-size: 65px;
+	font-size: 80px;
 	color: #2d3033;
+	font-weight: 700;
 }
 h2 {
-	font-size: 40px;
+	font-size: 60px;
 	color: #2d3033;
+	font-weight: 600;
 }
 h3 {
-	font-size: 28px;
+	font-size: 40px;
 	color: #2d3033;
 	font-weight: 500;
 }
 h4 {
-	font-size: 22px;
+	font-size: 30px;
 	color: #2d3033;
-	font-weight: 400;
+	font-weight: 500;
 }
 h5 {
-	font-size: 14px;
+	font-size: 20px;
 	color: #2d3033;
-	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 600;
+}
+h6 {
+	font-size: 25px;
+	font-weight: 600;
+	color: #6c7279;
 }
  
 .btn {
@@ -69,7 +76,7 @@ h5 {
 	Global Styles
 -------------------------------------------------------------------------------*/
 a {
-	color: #e84545;
+	color: #8bc34a;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -78,7 +85,11 @@ a:hover, a:focus {
 	-webkit-transition: background-color, color, 0.3s;
 	transition: background-color, color, 0.3s;
 }
-body {
+html,body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
 	font-family: "Open Sans", Arial, sans-serif;
 	font-weight: 400;
 	color: #6c7279;
@@ -91,7 +102,7 @@ ul li {
 	list-style: none;
 }
 .section {
-	padding: 100px 0;
+	padding: 10px 0;
 }
 .no-padding {
 	padding: 0;
@@ -101,7 +112,7 @@ ul li {
 	padding-left: 0;
 }
 .space {
-	margin-top: 60px;
+	margin: 60px;
 }
 /* ------------------------------------------------------------------------------
 	Header
@@ -183,9 +194,9 @@ ul li {
 }
 .navigation a {
 	color: #a0a0a0;
-	font-size: 13px;
+	font-size: 18px;
 	font-weight: 600;
-	margin-left: 40px;
+	margin-left: 20px;
 	text-transform: uppercase;
 }
 .navigation a:hover, .navigation a.active {
@@ -385,12 +396,7 @@ Common Styles
 text-align: center;	
 padding-bottom: 30px;
 }
-.section-header h2{
-	
-}
-.section-header p{
-	
-}
+
 
 
 /* ------------------------------------------------------------------------------
@@ -402,8 +408,8 @@ padding-bottom: 30px;
 .services {
 	margin-bottom: 50px;
 }
-.services-content {
-	min-height: 180px;
+.services-content{
+	min-height: 220px;
 	padding: 30px 30px 20px;
 	/* margin-top: 30px; */
 	background: #ffffff;
@@ -546,6 +552,7 @@ ul.list-default li {
 }
 .package {
 	/* border: 1px solid rgba(0, 0, 0, 0.1) !important; */
+	min-height: 200px;
 	position: relative;
 	border-style: none none solid none !important;
 	padding: 1em 0 0.5em;
@@ -844,7 +851,6 @@ ul.list-default li {
  	list-style: disc;
  }
 
-
 /* ------------------------------------------------------------------------------
 	 Content2-FightFit page
 -------------------------------------------------------------------------------*/
@@ -859,6 +865,38 @@ ul.list-default li {
 	min-height: 750px;
 }
 
+#trainonline {
+	background-image: url(../images/exawophone.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	min-height: 750px;
+}
+
+
+#hack {
+	background-image: url(../images/matrix.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	min-height: 750px;
+	margin-bottom: 60px;
+}
+
+h2.post-title{
+	font-size: 40px;
+	font-weight: 800;
+}
+
+.fa-stack{
+	font-size: 50px;
+}
 
 
 
@@ -869,3 +907,4 @@ ul.list-default li {
 
 
 
+  
