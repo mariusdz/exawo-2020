@@ -25,33 +25,21 @@ Choose time and place and we will exercise Exawo way!">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/v4-shims.css">
 </head>
 
-<body>    
-    <div class="row">
-        <div class="card">
-            <article class="card-body">
-                <a href="" class="float-right btn btn-outline-primary">Sign up</a>
-                <h4 class="card-title mb-4 mt-1">Sign in</h4>
-                <form>
-                    <div class="form-group">
-                        <label>Your email</label>
-                        <input name="" class="form-control" placeholder="Email" type="email">
-                    </div> <!-- form-group// -->
-                    <div class="form-group">
-                        <a class="float-right" href="#">Forgot?</a>
-                        <label>Your password</label>
-                        <input class="form-control" placeholder="******" type="password">
-                    </div> <!-- form-group// --> 
-                    <div class="form-group">
-                        <div class="checkbox">
-                            <label> <input type="checkbox"> Save password </label>
-                        </div> <!-- checkbox .// -->
-                    </div> <!-- form-group// -->  
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-primary btn-block"> Login  </button>
-                    </div> <!-- form-group// -->                                                           
+<body>
+    <div class="container">
+        <div class="section-header">
+            <h2 class="wow fadeInDown animated">Subscribe</h2>
+                <p class="wow fadeInDown animated">Be first to get all the news straight to your email!</p>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 conForm">
+                <form method="post" action="php/contact.php" name="cform" id="cform">
+                    <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Your name..." >
+                    <input name="email" id="email" type="email" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr" placeholder="Email Address..." >
+                    <input type="submit" id="submit" name="send" class="submitBnt" value="Send"> 
                 </form>
-            </article>
-        </div> <!-- card.// -->
+            </div>
+        </div>
     </div>
 </body>
 </html>

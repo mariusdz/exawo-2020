@@ -26,6 +26,29 @@ Choose time and place and we will exercise Exawo way!">
 
 </head>
 <body>
+
+ 
+
+    <div id="popup">
+    <div class="row cnt223">
+      <button type="button" class="close" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button> 
+      <h3 style="color:#113ec2">Limited time offer!</h3>
+      <p>Subscribe now and get <br>1 hour session for 1/2 price!</p>
+      <div class="col-md-8 col-md-offset-2 conForm">       
+        <div id="message"></div>
+        <form method="post" action="php/contact.php" name="cform" id="cform">
+          <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Your name..." >
+          <input name="email" id="email" type="email" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr" placeholder="Email Address..." >
+          <input type="submit" id="submit" name="send" class="submitBnt" value="Submit">
+          <div id="simple-msg">by signing up you agree to our <a href="termsandconditions.html"><strong>Terms of service and Privacy policy</strong></a></div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
 <!-- header section -->
 
 <div class="container-fluid">
@@ -34,7 +57,7 @@ Choose time and place and we will exercise Exawo way!">
     <div class="header-content clearfix"><span class="logo"><a href="index.html">exawo</a></span>
       <nav class="navigation" role="navigation">
         <ul class="primary-nav">
-          <li><a href="#">members</a></li>
+          <li><a href="new-signup.html">Register</a></li>
         </ul>
       </nav>
       <a href="indexfi.html" class="nav-toggle">Menu<span></span></a></div>
@@ -54,7 +77,7 @@ Choose time and place and we will exercise Exawo way!">
   <div class="row">
     <div id ="blog" class="col-lg-8 col-md-10 mx-auto">
       <div class="post-preview">
-        <a href="post.html">
+        <a href="article-1.html">
           <h2 class="post-title">
             The new project "90 days" is starting soon!
           </h2>
@@ -79,9 +102,6 @@ Choose time and place and we will exercise Exawo way!">
       </div>
       <hr>
       <!-- Pager -->
-      <div class="clearfix">
-        <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
-      </div>
     </div>
   </div>
 </div>
