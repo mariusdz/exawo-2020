@@ -353,6 +353,8 @@ ul li {
 	background-size: cover;
 	min-height: 750px;
 }
+
+
 .banner-text {
 	padding-top: 31%;
 	/* display: none; */
@@ -873,7 +875,7 @@ ul.list-default li {
 	-o-background-size: cover;
 	-webkit-background-size: cover;
 	background-size: cover;
-	min-height: 750px;
+	max-height: 750px;
 }
 
 
@@ -935,7 +937,12 @@ p.copyright{
 }
 
 
-
+video {
+	/* override other styles to make responsive */
+	margin-top: 100px;
+	width: 100%    !important;
+	height: auto   !important;
+  }
 
 
 
