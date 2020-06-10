@@ -160,9 +160,7 @@ ul li {
 	color: #fff;
 	text-align: center;
 }
-#header .logo a:hover{
-	
-}
+
 #header.fixed {
 	background-color: #fff;
 	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.17);
@@ -944,8 +942,36 @@ video {
 	height: auto   !important;
   }
 
+#article.article-content {
+	margin-top: 80px;
+	padding: 80px;
+	background: #edf1f7;
+	border: 2px white;
+	color: #6a80a3;
+}
 
+#article h2{
+	margin: 10px;
+	font-style: italic;
+	text-align: center;
+}
+#article-footer{
+	margin-top: 80px;
+} 
 
+img.card {
+	max-width: 300px;
+	max-height: 300px;
+}
+#article p{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	line-height: 30px;
+	font-size: 22px;
+	font-weight: 600;
+}
 
-
-  
+.article{
+	font-size: 20px;
+	font-weight: 700;
+}
