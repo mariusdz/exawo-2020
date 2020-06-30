@@ -435,17 +435,17 @@ padding-bottom: 30px;
 
 .services .fas {
 	color: #8bc34a;
-	font-size: 28px;
+	font-size: 128px;
 	/* padding-top: 43px; */
 	display: inline-block;
 	background: #ffffff;
 	padding: 20px;
 	border-radius: 50%;
-	height: 90px;
-	width: 93px;
+	height: 190px;
+	width: 193px;
 	font-weight: 600;
-	line-height: 42px;
-	border: 1px solid #d6d6d6;
+	line-height: 142px;
+	border: 2px solid #d6d6d6;
 	margin-bottom: 15px;
 }
 /* ------------------------------------------------------------------------------
@@ -865,17 +865,6 @@ ul.list-default li {
 	min-height: 750px;
 }
 
-#trainonline {
-	background-image: url(../images/exawophone.jpg);
-	background-position: center top;
-	background-repeat: no-repeat;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	-webkit-background-size: cover;
-	background-size: cover;
-	max-height: 750px;
-}
-
 
 #hack {
 	background-image: url(../images/matrix.jpg);
@@ -932,15 +921,7 @@ h2.post-title{
 
 p.copyright{
 	margin-top:15px;
-}
-
-
-video {
-	/* override other styles to make responsive */
-	margin-top: 100px;
-	width: 100%    !important;
-	height: auto   !important;
-  }
+} 
 
 #article.article-content {
 	margin-top: 80px;
@@ -1011,3 +992,31 @@ img.card {
     -ms-flex-direction: column;
     flex-direction: column;
 }
+
+#card {
+	max-width: 400px;
+	height: auto;
+	margin: 30px auto;
+    text-align: center;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 3%;
+}
+#card h4{
+  font-weight: 700;
+}
+
+#card h3 {
+	color: #8bc34a;
+	font-weight: 600;
+}
+ p.contents {
+	 margin: 40px;
+	 font-size: 30px;
+	 line-height: 32px;
+ }
+
+ #programs{
+	 background-color: hsla(193, 17%, 90%, 0.877);
+ }
+    
